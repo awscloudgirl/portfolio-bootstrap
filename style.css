@@ -3,7 +3,7 @@ body {
     background-color: black; /* Light grey background for better readability */
 }
 
-/* Header styling */
+
 header {
     background-color: black; 
     color: white;
@@ -26,60 +26,60 @@ main.container {
 }
 
 #about {
-    background-color: white; /* Bright background for the content */
-    border: 5px solid black; /* Solid border as per original design */
-    border-radius: 10px; /* Rounded corners */
-    padding: 20px; /* Padding around the content */
+    background-color: white; 
+    border: 5px solid black; 
+    border-radius: 10px; 
+    padding: 20px; 
 }
 
 #about h2 {
-    background-color: black; /* Dark background for header */
-    color: white; /* Text color for visibility */
-    padding: 10px 0; /* Padding for the title */
-    margin-top: -20px; /* Overlap title on the top edge of the section */
-    border-top-left-radius: 10px; /* Rounded corners */
+    background-color: black;
+    color: white; 
+    padding: 10px 0;
+    margin-top: -20px; 
+    border-top-left-radius: 10px; 
     border-top-right-radius: 10px;
 }
 
 #about img {
-    width: 100%; /* Full width within the container */
-    height: auto; /* Maintain aspect ratio */
-    margin-bottom: 20px; /* Space below the image */
+    width: 100%; 
+    height: auto; 
+    margin-bottom: 20px; 
 }
 
-/* Projects section styling */
+
 #projects {
-    color: white; /* White text on a dark background */
+    color: white; 
 }
 
 #projects h2, #projects h3 {
-    padding: 20px 0; /* Space around headers */
+    padding: 20px 0;
 }
 
-/* Contact section styling */
+
 #contact {
-    background-color: white; /* Contrast background for clarity */
-    padding: 20px; /* Padding inside the section */
-    border-radius: 10px; /* Rounded corners for the section */
+    background-color: white; 
+    padding: 20px; 
+    border-radius: 10px; 
 }
 
 .form-container {
-    background-color: #e9ecef; /* Light background for the form */
+    background-color: #e9ecef; 
     padding: 20px;
-    border-radius: 8px; /* Rounded corners for form */
+    border-radius: 8px; 
 }
 
-/* Footer styling */
+
 footer {
-    background-color: black; /* Consistent dark footer */
-    color: white; /* Text color */
-    padding: 10px 0; /* Padding for the footer */
-    text-align: center; /* Center-aligned text */
+    background-color: black; 
+    color: white; 
+    padding: 10px 0; 
+    text-align: center; 
 }
 
-/* Adjustments for responsiveness and alignment */
+
 @media (min-width: 768px) {
     .navbar-nav {
-        margin-left: auto; /* Align nav items to the right on larger screens */
+        
     }
 }
