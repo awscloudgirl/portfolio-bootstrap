@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>Portfolio Page</title>
+
+        <!-- BootStrap CSS -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- BootStrap Javascript -->
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+        <!-- CSS Stylesheet-->
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        
+        <header>
+
+            <!-- Navbar --> <!-- https://getbootstrap.com/docs/4.0/components/navbar/ -->
+            <nav class="navbar navbar-expand-lg navbar-dar bg-dark sticky-top">
+                <div class="container">
+                    <a class="navbar-brand" href="#">Portfolio</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-item nav-link active" href="#about">About Me</a>
+                            <a class="nav-item nav-link" href="#projects">Projects</a>
+                            <a class="nav-item nav-link" href="#contact">Contact</a>
+                        </div>
+                    </div>         
+                </div>
+            </nav>
+        </header>
+
+        <main class="container mt-5">
+            <div class="text-center">
+                <p><strong>Bianca Dominguez</strong></p>
+            </div> 
+            
+            <div id="about" class="text-center p-3 mb-5 bg-light border rounded">
+                <h2 class="pt-3 pb-2 bg-dark text-white">About Me</h2>
+                <imag src="niqabi.jpg" alt="Me" class="img-fluid my-3">
+                    <p>I am a dedicated professional transitioning into the world of DevOps and DevSecOps, with a strong foundation in cloud computing and a passion for continuous learning. Currently, I am enrolled in a full-stack development bootcamp to deepen my understanding of software development, as I believe that mastering development principles is essential for excelling in DevOps. My goal is to bridge the gap between development and operations, enabling me to build more efficient, secure, and scalable systems. With hands-on experience in CI/CD pipelines, cloud platforms, and infrastructure as code, combined with my entrepreneurial background in managing complex projects, I am eager to bring a holistic approach to DevOps and DevSecOps roles.</p>
+            </div>
+
+            <section id="projects" class="bg-dark text-white text-center py-3">
+                <h2>Projects</h2>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <article class="mb-4">
+                                <img src="terraform.png" alt="Terraform Project" class="img-fluid my-3">
+                                <h3><strong>Terraform Project</strong></h3>
+                                <p>This project is an infrastructure-as-code (IaC) solution using Terraform to automate the provisioning, management, and deployment of cloud resources for a customizable content management system (CMS).</p>
+                            </article>
+                        </div>
+
+                    </div class="col-md-6">
+                    <article class="mb-4">
+                        <img src="cloudtopia.png" alt="Cloudtopia AWS/AI" class="img-fluid my-3">
+                        <h3><strong>AWS Rekognition Project</strong></h3>
+                        <p>This project automates passport photo validation using AWS services like Rekognition for image analysis, S3 for storage, Lambda for processing, DynamoDB for results, and API Gateway for data retrieval, ensuring efficient, scalable, and reliable automation.</p>
+                    </article>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact" class="text-center py-3">
+                <h2>Contact Me</h2>
+                <p>Drop me a quick message or reach me direct on the details below.</p>
+                <div class="form-container d-flex justify-content-center align-items-center">
+                    <form action="#" class="bg-white p-4 rounded" style="max-width: 800px">
+                        <div class="form-group">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message:</label>
+                            <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-dark">Submit</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <footer class="bg-dark text-white text-center py-3">
+            <p>© Copyright 2025 AWS Cloud Girl</p>
+        </footer>
+    </body>
+
